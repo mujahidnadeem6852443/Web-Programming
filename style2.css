@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    margin-left: 55%;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.styled-div {
+    margin-top: 50px;
+    width: 40%;
+    height: 80%;
+    font-size: 24px; /* Adjust the font size as needed */
+    padding: 20px; /* Padding inside the div */
+    text-align: center; /* Center-align text */
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+}
+
+
+.image-div img {
+
+    border-radius: 10%;
+    margin-left: 15%;
+    width: 620px;
+    height: auto; 
+}
+
+footer {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    position: fixed;
+    
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+}
